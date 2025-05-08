@@ -1,8 +1,16 @@
-export default function Button() {
+export default function Button({children, href = "#", target = "_blank", icon: Icon, iconPosition = "left", className = "", ...props}) {
     return (
         <>
-            <a href="#" target="_blank"
-               className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+            <a
+                href={href}
+                target={target}
+                className={`inline-flex items-center gap-2 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 ${className} ? ${className} : 'text-gray-900 border border-gray-200 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'`}
+                {...props}
+            >
+                {Icon && iconPosition === "left" && <Icon/>}
+                <span>{children}</span>
+                {Icon && iconPosition === "right" && <Icon/>}
+            </a>
         </>
     )
 }

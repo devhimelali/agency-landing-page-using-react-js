@@ -1,4 +1,3 @@
-// import menus from '../../data/header.js'
 import NavLink from "./NavLink";
 
 export default function Navbar({ menus}) {
