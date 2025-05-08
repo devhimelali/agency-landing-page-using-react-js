@@ -1,4 +1,4 @@
-export default function SectionHeading({heading, subHeading, description, className = ""}) {
+export default function SectionHeading({heading, subHeading, description, className}) {
     return (
         <>
             {subHeading && (
@@ -7,12 +7,12 @@ export default function SectionHeading({heading, subHeading, description, classN
                 </p>
             )}
             <h1
-                className={`max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white ${className}`}
-                dangerouslySetInnerHTML={{ __html: heading }}
+                className={`mb-4 font-extrabold tracking-tight text-gray-900 dark:text-white ${className ? className : 'text-3xl'}`}
+                dangerouslySetInnerHTML={{__html: heading}}
             />
             <p
                 className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
-                dangerouslySetInnerHTML={{ __html: description }}
+                dangerouslySetInnerHTML={{__html: description}}
             />
         </>
     )

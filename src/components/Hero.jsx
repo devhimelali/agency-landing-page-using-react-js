@@ -12,7 +12,7 @@ export default function Hero() {
                 <div
                     className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
                     <div className="mr-auto place-self-center lg:col-span-7">
-                        <SectionHeading heading={heroInfo.heading} description={heroInfo.subHeading}/>
+                        <SectionHeading heading={heroInfo.heading} description={heroInfo.subHeading} className={'max-w-2xl text-4xl leading-none md:text-5xl xl:text-6xl'}/>
                         <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                             <Button icon={GithubLogo}>
                                 View on GitHub
