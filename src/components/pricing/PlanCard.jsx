@@ -1,5 +1,5 @@
-import PlanFeatureList from "./PlanFeatureList.jsx";
-import Button from "../common/Button.jsx";
+import PlanFeatureList from "./PlanFeatureList";
+import Button from "../common/Button";
 
 export default function PlanCard({title, price, type, description, features}) {
     return (

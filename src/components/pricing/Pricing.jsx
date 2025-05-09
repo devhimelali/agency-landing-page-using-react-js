@@ -1,4 +1,4 @@
-import PlanCard from "./PlanCard.jsx";
+import PlanCard from "./PlanCard";
 
 export default function Pricing({heading, description, plans}) {
     return (

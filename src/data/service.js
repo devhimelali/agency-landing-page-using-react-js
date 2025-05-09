@@ -4,7 +4,7 @@ import FeatureImageTwo from '../assets/features/feature-2.png'
 const serviceInfo = [
     {
         id: 1,
-        sectionTitle:{
+        sectionTitle: {
             heading: "Work with tools you already use",
             description: "Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease."
         },
@@ -29,7 +29,7 @@ const serviceInfo = [
     },
     {
         id: 2,
-        sectionTitle:{
+        sectionTitle: {
             heading: "We invest in the world’s potential",
             description: "Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease."
         },

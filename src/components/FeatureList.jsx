@@ -1,4 +1,4 @@
-import CheckCircle from "./icons/CheckCircle.jsx";
+import CheckCircle from "./icons/CheckCircle";
 
 export default function FeatureList({item}) {
     return (

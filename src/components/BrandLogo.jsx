@@ -6,12 +6,12 @@ import Mailchimp from "./icons/Mailchimp";
 import Mashable from "./icons/Mashable";
 
 const iconMap = {
-    Airbnb: <Airbnb />,
-    Google: <Google />,
-    Microsoft: <Microsoft />,
-    Spotify: <Spotify />,
-    Mailchimp: <Mailchimp />,
-    Mashable: <Mashable />,
+    Airbnb: <Airbnb/>,
+    Google: <Google/>,
+    Microsoft: <Microsoft/>,
+    Spotify: <Spotify/>,
+    Mailchimp: <Mailchimp/>,
+    Mashable: <Mashable/>,
 };
 
 export default function BrandLogo({name}) {

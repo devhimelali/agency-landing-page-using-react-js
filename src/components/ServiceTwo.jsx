@@ -1,9 +1,8 @@
 import serviceTwoInfo from "../data/service2"
-import SectionHeading from "./common/SectionHeading.jsx";
-import Button from "./common/Button.jsx";
-import LeftArrow from "./icons/LeftArrow.jsx";
-import FeatureCardIcon from "./FeatureCardIcon.jsx";
-import FeatureCard from "./FeatureCard.jsx";
+import SectionHeading from "./common/SectionHeading";
+import Button from "./common/Button";
+import LeftArrow from "./icons/LeftArrow";
+import FeatureCard from "./FeatureCard";
 
 export default function ServiceTwo() {
     return (

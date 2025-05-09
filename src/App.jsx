@@ -4,14 +4,13 @@ import Footer from "./components/footer/Footer";
 
 
 function App() {
-
-  return (
-      <>
-          <Header/>
-          <Home />
-          <Footer/>
-      </>
-  )
+    return (
+        <>
+            <Header/>
+            <Home/>
+            <Footer/>
+        </>
+    )
 }
 
 export default App

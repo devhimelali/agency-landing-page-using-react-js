@@ -13,7 +13,8 @@ export default function Header() {
                             <Logo {...headerInfo.logo}/>
                         </a>
                         <div className="flex items-center lg:order-2">
-                            <Button className={'px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 rounded-lg text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800'}>
+                            <Button
+                                className={'px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 rounded-lg text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800'}>
                                 Download
                             </Button>
                         </div>

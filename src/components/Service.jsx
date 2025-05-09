@@ -1,5 +1,5 @@
-import SectionHeading from "./common/SectionHeading.jsx";
-import FeatureList from "./FeatureList.jsx";
+import SectionHeading from "./common/SectionHeading";
+import FeatureList from "./FeatureList";
 
 export default function Service({sectionTitle, features, shortDescription, image, leftCLassName, rightCLassName}) {
     return (

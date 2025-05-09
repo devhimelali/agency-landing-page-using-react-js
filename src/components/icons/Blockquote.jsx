@@ -1,5 +1,5 @@
 export default function Blockquote() {
-    return(
+    return (
         <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
              xmlns="http://www.w3.org/2000/svg">
             <path

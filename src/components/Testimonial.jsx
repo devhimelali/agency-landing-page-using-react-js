@@ -1,11 +1,11 @@
-import Blockquote from "./icons/Blockquote.jsx";
+import Blockquote from "./icons/Blockquote";
 
 export default function Testimonial({quote, image, author, position, company}) {
     return (
         <section className="bg-gray-50 dark:bg-gray-800">
             <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
                 <figure className="max-w-screen-md mx-auto">
-                    <Blockquote />
+                    <Blockquote/>
                     <blockquote>
                         <p className="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">{quote}</p>
                     </blockquote>
@@ -15,7 +15,8 @@ export default function Testimonial({quote, image, author, position, company}) {
                              alt="profile picture"/>
                         <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                             <div className="pr-3 font-medium text-gray-900 dark:text-white">{author}</div>
-                            <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">{position} at {company}
+                            <div
+                                className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">{position} at {company}
                             </div>
                         </div>
                     </figcaption>

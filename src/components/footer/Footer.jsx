@@ -1,6 +1,6 @@
 import {footerInfo, footerInfo2} from '../../data/footer.js'
 import FooterNavbar from "./FooterNavbar";
-import FooterTwo from "../FooterTwo.jsx";
+import FooterTwo from "./FooterTwo";
 
 export default function Footer() {
     return (
