@@ -1,4 +1,6 @@
-export default function FooterTwo({logo, appName, copyRightText, creditTextOne, creditTextTwo}) {
+import FooterSocialLogo from "./FooterSocialLogo.jsx";
+
+export default function FooterTwo({logo, appName, copyRightText, creditTextOne, creditTextTwo, socialLinks}) {
     return (
         <div className="text-center">
             <a href="#"
@@ -18,6 +20,11 @@ export default function FooterTwo({logo, appName, copyRightText, creditTextOne, 
                             {creditTextTwo}
                         </a>.
                 </span>
+            <ul className="flex justify-center mt-5 space-x-5">
+                {socialLinks.map((item) => (
+                    <FooterSocialLogo name={item.name} key={item.id}/>
+                ))}
+            </ul>
         </div>
     )
 }

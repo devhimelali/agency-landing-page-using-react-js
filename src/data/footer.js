@@ -133,7 +133,29 @@ const footerInfo2 = {
     appName: "Learn with Sumit",
     copyRightText: "2024-2025 Learn with Sumit. All Rights Reserved. Built with",
     creditTextOne: " Flowbite ",
-    creditTextTwo: " Tailwind CSS"
+    creditTextTwo: " Tailwind CSS",
+    socialLinks: [
+        {
+            id: 1,
+            name: "Facebook"
+        },
+        {
+            id: 2,
+            name: "Twitter"
+        },
+        {
+            id: 3,
+            name: "Instagram"
+        },
+        {
+            id: 4,
+            name: "Github"
+        },
+        {
+            id: 5,
+            name: "Dribbble"
+        }
+    ]
 }
 
 export {footerInfo, footerInfo2}
