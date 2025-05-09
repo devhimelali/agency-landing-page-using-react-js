@@ -1,9 +1,9 @@
-import Check from "./icons/Check";
+import CheckCircle from "./icons/CheckCircle.jsx";
 
 export default function FeatureList({item}) {
     return (
         <li className="flex space-x-3">
-            <Check/>
+            <CheckCircle/>
             <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
                 {item.title}
             </span>
