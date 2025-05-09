@@ -44,9 +44,9 @@ const planInfo = {
             features: [
                 "Individual configuration",
                 "No setup, or hidden fees",
-                "Team size: <span class=\"font-semibold\">10 developers</span>",
-                "Premium support: <span class=\"font-semibold\">24 months</span>",
-                "Free updates: <span class=\"font-semibold\">24 months</span>"
+                "Team size: <span class=\"font-semibold\">100+ developers</span>",
+                "Premium support: <span class=\"font-semibold\">36 months</span>",
+                "Free updates: <span class=\"font-semibold\">36 months</span>"
             ],
             buttonText: "Get started",
             buttonLink: "#",
