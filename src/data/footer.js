@@ -132,7 +132,7 @@ const footerInfo2 = {
     logo: Logo,
     appName: "Learn with Sumit",
     copyRightText: "2024-2025 Learn with Sumit. All Rights Reserved. Built with",
-    creditTextOne: " Flowbite",
+    creditTextOne: " Flowbite ",
     creditTextTwo: " Tailwind CSS"
 }
 
